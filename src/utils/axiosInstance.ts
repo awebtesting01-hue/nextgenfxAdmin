@@ -9,7 +9,7 @@ import axios, {
 const isProduction = true; // Change to true for production
 
 const baseURL = isProduction
-  ? "https://nextgenfxbackend.onrender.com/api/v1"
+  ? "https://oldbackend.mrforexgrp.com/api/v1"
   : "http://localhost:8000/api/v1";
 
 const axiosInstance: AxiosInstance = axios.create({
